@@ -1,0 +1,8 @@
+# ARM (use ARM toolchain by default)
+source "toolchain/toolchain-external/toolchain-external-arm-arm/Config.in"
+source "toolchain/toolchain-external/toolchain-external-linaro-arm/Config.in"
+
+---armsf 관련 내용을 추가
+source "toolchain/toolchain-external/toolchain-external-linaro-armsf/Config.in"
+
+source "toolchain/toolchain-external/toolchain-external-codesourcery-arm/Config.in"
